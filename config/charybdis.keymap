@@ -196,7 +196,7 @@
 
         NAV {
             bindings = <
-&trans  &kp K_UNDO    &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &none     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &trans
+&trans  &kp K_UNDO    &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &studio_unlock     &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &trans
 &trans  &kp HOME      &kp LEFT    &kp DOWN      &kp RIGHT     &kp END            &kp LEFT  &kp DOWN    &kp UP            &kp RIGHT   &kp RC(UP)     &trans
 &trans  &td_clk_scrl  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(TAB)        &kp HOME  &kp PG_DN   &kp PG_UP         &kp END     &kp RC(RIGHT)  &trans
                                   &mkp MCLK     &lt 3 TAB     &kp DEL            &kp ESC   &lt 3 TAB
