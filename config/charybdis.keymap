@@ -160,7 +160,7 @@
 
         BASE {
             bindings = <
-&trans  &hm N2 Q                  &hm N3 W        &hm N3 E    &hm N4 R          &hm N5 T                        &hm N6 Y                       &hm N7 U           &hm N8 I    &hm N9 O         &hm N0 P                       &trans
+&trans  &hm N2 Q                  &hm N3 W        &hm N4 E    &hm N5 R          &hm N6 T                        &hm N7 Y                       &hm N8 U           &hm N9 I    &hm N0 O         &hm MINUS P                    &trans
 &trans  &hm LCTRL A               &hm LEFT_ALT S  &hm LCMD D  &hm LEFT_SHIFT F  &hm LA(LC(LG(LEFT_SHIFT))) G    &hm RA(RC(RG(RIGHT_SHIFT))) H  &hm RIGHT_SHIFT J  &hm RCMD K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON            &trans
 &trans  &hm LA(LC(LEFT_SHIFT)) Z  &lt 4 X         &kp C       &kp V             &lt 3 B                         &lt 3 N                        &kp M              &kp COMMA   &lt 4 DOT        &hm RC(RA(RIGHT_SHIFT)) SLASH  &trans
                                                   &mkp LCLK   &lt 1 SPACE       &lt 2 BACKSPACE                 &lt 2 ESC                      &lt 1 ENTER
@@ -178,10 +178,10 @@
 
         NAV {
             bindings = <
-&trans  &kp K_UNDO    &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &studio_unlock  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &trans
-&trans  &kp HOME      &kp LEFT    &kp DOWN      &kp RIGHT     &kp END            &kp LEFT        &kp DOWN    &kp UP            &kp RIGHT   &kp RC(UP)     &trans
-&trans  &td_clk_scrl  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(TAB)        &kp HOME        &kp PG_DN   &kp PG_UP         &kp END     &kp RC(RIGHT)  &trans
-                                  &mkp MCLK     &lt 3 TAB     &kp DELETE         &kp ESC         &lt 3 TAB
+&trans  &kp K_UNDO  &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &studio_unlock  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &trans
+&trans  &kp HOME    &kp LEFT    &kp DOWN      &kp RIGHT     &kp END            &kp LEFT        &kp DOWN    &kp UP            &kp RIGHT   &kp RC(UP)     &trans
+&trans  &td_cursor  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(TAB)        &kp HOME        &kp PG_DN   &kp PG_UP         &kp END     &kp RC(RIGHT)  &trans
+                                &mkp MCLK     &lt 3 TAB     &kp DELETE         &kp ESC         &lt 3 TAB
             >;
         };
 

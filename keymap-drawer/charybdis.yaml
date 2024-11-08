@@ -3,14 +3,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: Q, h: '2'}
   - {t: W, h: '3'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
-  - {t: T, h: '5'}
-  - {t: Y, h: '6'}
-  - {t: U, h: '7'}
-  - {t: I, h: '8'}
-  - {t: O, h: '9'}
-  - {t: P, h: '0'}
+  - {t: E, h: '4'}
+  - {t: R, h: '5'}
+  - {t: T, h: '6'}
+  - {t: Y, h: '7'}
+  - {t: U, h: '8'}
+  - {t: I, h: '9'}
+  - {t: O, h: '0'}
+  - {t: P, h: '-'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: A, h: LCTRL}
@@ -109,7 +109,7 @@ layers:
   - Ctl+ UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&td_clk_scrl'
+  - SCRL SLOW
   - MUTE
   - VOL DN
   - VOL UP
