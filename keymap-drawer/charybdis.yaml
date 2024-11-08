@@ -26,21 +26,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Z, h: Alt+Ctl+ LEFT SHIFT}
-  - X
+  - {t: X, h: BT}
   - C
   - V
   - {t: B, h: RAY}
-  - {t: N, h: RAY2}
+  - {t: N, h: RAY}
   - M
   - ','
-  - .
+  - {t: ., h: BT}
   - {t: /, h: Ctl+AGr+ RIGHT SHIFT}
   - {t: ▽, type: trans}
   - L CLK
   - {t: SPACE, h: NUM}
   - {t: BACK SPACE, h: NAV}
-  - {t: ESC, h: NAV2}
-  - {t: ENTER, h: NUM2}
+  - {t: ESC, h: NAV}
+  - {t: ENTER, h: NUM}
   NUM:
   - {t: ▽, type: trans}
   - {t: '2', h: Sft+ 2}
@@ -79,52 +79,10 @@ layers:
   - {t: '''', h: AGr+Ctl+ RIGHT SHIFT}
   - {t: ▽, type: trans}
   - R CLK
-  - {type: held}
+  - {t: TAB, type: held}
   - {t: DEL, h: RAY}
-  - {t: ESC, h: RAY2}
+  - {t: ESC, h: RAY}
   - TAB
-  NUM2:
-  - {t: ▽, type: trans}
-  - {t: '2', h: Sft+ 2}
-  - {t: '3', h: Sft+ 3}
-  - {t: '4', h: Sft+ 4}
-  - {t: '5', h: Sft+ 5}
-  - {t: '6', h: Sft+ 6}
-  - {t: '7', h: Sft+ 7}
-  - {t: '8', h: Sft+ 8}
-  - {t: '9', h: Sft+ 9}
-  - {t: '0', h: Sft+ 0}
-  - {t: '-', h: Sft+ -}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '1', h: LCTRL}
-  - {t: F1, h: LEFT ALT}
-  - {t: F2, h: LCMD}
-  - {t: F3, h: LEFT SHIFT}
-  - {t: F4, h: Ctl+Alt+Gui+ LEFT SHIFT}
-  - {t: F5, h: AGr+Ctl+Gui+ RIGHT SHIFT}
-  - {t: F6, h: RIGHT SHIFT}
-  - {t: PRINT SCREEN, h: RCMD}
-  - {t: '=', h: RIGHT ALT}
-  - {t: '[', h: RCTRL}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '`', h: Alt+Ctl+ LEFT SHIFT}
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - DEV TOOLS
-  - \
-  - ']'
-  - {t: '''', h: AGr+Ctl+ RIGHT SHIFT}
-  - {t: ▽, type: trans}
-  - R CLK
-  - TAB
-  - {t: DEL, h: RAY}
-  - {t: ESC, h: RAY2}
-  - {type: held}
   NAV:
   - {t: ▽, type: trans}
   - UNDO
@@ -164,51 +122,9 @@ layers:
   - {t: ▽, type: trans}
   - M CLK
   - {t: TAB, h: RAY}
-  - {type: held}
+  - {t: DELETE, type: held}
   - ESC
-  - {t: TAB, h: RAY2}
-  NAV2:
-  - {t: ▽, type: trans}
-  - UNDO
-  - PG UP
-  - UP
-  - PG DN
-  - Sft+Ctl+ TAB
-  - ZMK Studio
-  - PREV
-  - PLAY PAUSE
-  - NEXT
-  - Ctl+ LEFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - HOME
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - Ctl+ UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&td_clk_scrl'
-  - MUTE
-  - VOL DN
-  - VOL UP
-  - Ctl+ TAB
-  - HOME
-  - PG DN
-  - PG UP
-  - END
-  - Ctl+ RIGHT
-  - {t: ▽, type: trans}
-  - M CLK
   - {t: TAB, h: RAY}
-  - DEL
-  - {type: held}
-  - {t: TAB, h: RAY2}
   RAY:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,7 +167,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RAY2:
+  BT:
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,21 +181,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,44 +195,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  RAY3:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
