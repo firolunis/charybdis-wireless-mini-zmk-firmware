@@ -84,7 +84,7 @@
         td_cursor: td_scroll_or_cursor {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&lt 0 ESC>, <&to 9>;
+            bindings = <&lt 9 ESC>, <&to 8>;
 
             // hold, tap, double_tap
         };
