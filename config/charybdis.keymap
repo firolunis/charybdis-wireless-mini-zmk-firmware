@@ -85,7 +85,7 @@
         td_cursor: td_scroll_or_cursor {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&lt 10 ESC>, <&to 9>;
+            bindings = <&lt 9 ESC>, <&to 8>;
 
             // hold, tap, double_tap
         };
@@ -111,7 +111,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <250>;
-            bindings = <&mkp RCLK>, <&mo 10>;
+            bindings = <&mkp RCLK>, <&mo 9>;
 
             // tap/hold, double_tap
         };
@@ -125,27 +125,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        CapsWord {
-            bindings = <&caps_word>;
-            key-positions = <17 18>;
-            layers = <0>;
-        };
-
-        MiddleClick {
-            bindings = <&mkp MCLK>;
-            key-positions = <28 37>;
-        };
-
-        RightClick {
-            bindings = <&mkp RCLK>;
-            key-positions = <16 37>;
-        };
-
-        BASE_or_EXTRAS {
-            bindings = <&td_bore>;
-            key-positions = <38 39>;
-        };
 
         // GameLayer {
         //     bindings = <&tog 4>;
@@ -245,19 +224,10 @@
 
         EXTRAS {
             bindings = <
-&kp C_POWER      &shrug  &lgtm     &gcm      &none  &kp C_BRIGHTNESS_INC    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3     &out OUT_TOG     &bt BT_CLR
-&kp C_SLEEP      &shit   &py_iter  &js_iter  &none  &kp C_BRIGHTNESS_DEC    &VSplit         &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_STOP       &kp C_NEXT       &none
+&kp C_POWER      &shrug  &lgtm     &gcm      &none    &kp C_BRIGHTNESS_INC    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3     &out OUT_TOG     &bt BT_CLR
+&kp C_SLEEP      &shit   &py_iter  &js_iter  &none    &kp C_BRIGHTNESS_DEC    &VSplit       &kp C_PREVIOUS  &kp C_PLAY_PAUSE   &kp C_STOP       &kp C_NEXT       &none
 &kp C_AL_COFFEE  &none   &none     &none     &HSplit  &clip_hist              &new_dir      &kp K_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp PRINTSCREEN  &studio_unlock
-                                   &none     &none  &none                   &none         &none
-            >;
-        };
-
-        MOUSE {
-            bindings = <
-&none    &msc MOVE_LEFT  &msc MOVE_UP    &mmv MOVE_UP    &msc MOVE_DOWN   &msc MOVE_RIGHT    &none       &none            &none      &none         &none     &none
-&kp TAB  &mkp MB4        &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MB5           &none       &kp RIGHT_SHIFT  &kp RCTRL  &kp LEFT_ALT  &kp LCMD  &none
-&none    &kp C_AC_UNDO   &kp C_AC_CUT    &kp C_AC_COPY   &kp C_AC_PASTE   &mkp MCLK          &none       &none            &none      &none         &none     &none
-                                         &trans          &trans           &trans             &kp RETURN  &trans
+                                   &none     &none    &none                   &none         &none
             >;
         };
 
