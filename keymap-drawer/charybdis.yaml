@@ -26,14 +26,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Z, h: Alt+Ctl+ LEFT SHIFT}
-  - {t: X, h: SLOW}
+  - {t: X, h: BT}
   - C
   - V
   - {t: B, h: RAY}
   - {t: N, h: RAY}
   - M
   - ','
-  - {t: ., h: SLOW}
+  - {t: ., h: BT}
   - {t: /, h: Ctl+AGr+ RIGHT SHIFT}
   - {t: ▽, type: trans}
   - L CLK
@@ -320,7 +320,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -362,7 +362,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
