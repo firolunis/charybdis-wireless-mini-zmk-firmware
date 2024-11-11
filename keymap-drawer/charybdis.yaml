@@ -85,7 +85,7 @@ layers:
   - TAB
   NAV:
   - ''
-  - UNDO
+  - BRI UP
   - PG UP
   - UP
   - PG DN
@@ -109,7 +109,7 @@ layers:
   - Ctl+ UP
   - ''
   - ''
-  - SCRL SLOW
+  - BRI DN
   - MUTE
   - VOL DN
   - VOL UP
@@ -282,8 +282,8 @@ layers:
   - ''
   - {t: BT CLR, type: held}
   - ''
-  - ''
-  - ''
+  - OUT BLE
+  - OUT USB
   - ''
   - ''
   - ''
@@ -394,3 +394,7 @@ combos:
   k: BOOT LDR
 - p: [37, 36]
   k: SCRL SLOW
+- p: [2, 3]
+  k: CAPS
+- p: [8, 9]
+  k: CAPS
