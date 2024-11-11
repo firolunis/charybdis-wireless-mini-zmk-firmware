@@ -133,6 +133,16 @@
         //     bindings = <&tog 5>;
         //     key-positions = <2 3>;
         // };
+
+        LSHIFTCOMBO {
+            bindings = <&kp LSHIFT>;
+            key-positions = <37 38>;
+        };
+
+        RSHIFTCOMBO {
+            bindings = <&kp RSHIFT>;
+            key-positions = <40 39>;
+        };
     };
 
     // ╭──────┬──────┬──────┬──────┬──────┬──────╮  ╭──────┬──────┬──────┬──────┬──────┬──────╮
@@ -160,73 +170,73 @@
 
         BASE {
             bindings = <
-&trans  &hm N2 Q                  &hm N3 W        &hm N4 E    &hm N5 R          &hm N6 T                        &hm N7 Y                       &hm N8 U           &hm N9 I    &hm N0 O         &hm MINUS P                    &trans
-&trans  &hm LCTRL A               &hm LEFT_ALT S  &hm LCMD D  &hm LEFT_SHIFT F  &hm LA(LC(LG(LEFT_SHIFT))) G    &hm RA(RC(RG(RIGHT_SHIFT))) H  &hm RIGHT_SHIFT J  &hm RCMD K  &hm RIGHT_ALT L  &hm RCTRL SEMICOLON            &trans
-&trans  &hm LA(LC(LEFT_SHIFT)) Z  &lt 7 X         &kp C       &kp V             &lt 3 B                         &lt 3 N                        &kp M              &kp COMMA   &lt 7 DOT        &hm RC(RA(RIGHT_SHIFT)) SLASH  &trans
-                                                  &mkp LCLK   &lt 1 SPACE       &lt 2 BACKSPACE                 &lt 2 ESC                      &lt 1 ENTER
+&none  &hm N2 Q                  &hm N3 W        &hm N4 E    &hm N5 R          &hm N6 T                        &hm N7 Y                       &hm N8 U           &hm N9 I     &hm N0 O         &hm MINUS P                    &none
+&none  &hm LCTRL A               &hm LEFT_ALT S  &hm LCMD D  &hm LEFT_SHIFT F  &hm LA(LC(LG(LEFT_SHIFT))) G    &hm RA(RC(RG(RIGHT_SHIFT))) H  &hm RIGHT_SHIFT J  &hm RCMD K   &hm RIGHT_ALT L  &hm RCTRL SEMICOLON            &none
+&none  &hm LA(LC(LEFT_SHIFT)) Z  &lt 7 X         &lt 5 C     &lt 4 V           &lt 3 B                         &lt 3 N                        &lt 4 M            &lt 5 COMMA  &lt 7 DOT        &hm RC(RA(RIGHT_SHIFT)) SLASH  &none
+                                                 &mkp LCLK   &lt 1 SPACE       &lt 2 BACKSPACE                 &lt 2 ESC                      &lt 1 ENTER
             >;
         };
 
         NUM {
             bindings = <
-&trans  &hm LS(N2) N2                 &hm LS(N3) N3    &hm LS(N4) N4  &hm LS(N5) N5      &hm LS(N6) N6                    &hm LS(N7) N7                   &hm LS(N8) N8       &hm LS(N9) N9         &hm LS(N0) N0        &hm LS(MINUS) MINUS                   &trans
-&trans  &hm LCTRL N1                  &hm LEFT_ALT F1  &hm LCMD F2    &hm LEFT_SHIFT F3  &hm LC(LA(LG(LEFT_SHIFT))) F4    &hm RA(RC(RG(RIGHT_SHIFT))) F5  &hm RIGHT_SHIFT F6  &hm RCMD PRINTSCREEN  &hm RIGHT_ALT EQUAL  &hm RCTRL LEFT_BRACKET                &trans
-&trans  &hm LA(LC(LEFT_SHIFT)) GRAVE  &kp F7           &kp F8         &kp F9             &kp F10                          &kp F11                         &kp F12             &kp BACKSLASH         &kp RIGHT_BRACKET    &hm RA(RC(RIGHT_SHIFT)) SINGLE_QUOTE  &trans
-                                                       &mkp RCLK      &kp TAB            &lt 3 DEL                        &lt 3 ESC                       &kp TAB
+&none  &hm LS(N2) N2                 &hm LS(N3) N3    &hm LS(N4) N4  &hm LS(N5) N5      &hm LS(N6) N6                    &hm LS(N7) N7                   &hm LS(N8) N8       &hm LS(N9) N9         &hm LS(N0) N0        &hm LS(MINUS) MINUS                   &none
+&none  &hm LCTRL N1                  &hm LEFT_ALT F1  &hm LCMD F2    &hm LEFT_SHIFT F3  &hm LC(LA(LG(LEFT_SHIFT))) F4    &hm RA(RC(RG(RIGHT_SHIFT))) F5  &hm RIGHT_SHIFT F6  &hm RCMD PRINTSCREEN  &hm RIGHT_ALT EQUAL  &hm RCTRL LEFT_BRACKET                &none
+&none  &hm LA(LC(LEFT_SHIFT)) GRAVE  &kp F7           &kp F8         &kp F9             &kp F10                          &kp F11                         &kp F12             &kp BACKSLASH         &kp RIGHT_BRACKET    &hm RA(RC(RIGHT_SHIFT)) SINGLE_QUOTE  &none
+                                                      &mkp RCLK      &kp TAB            &kp DEL                          &kp ESC                         &kp TAB
             >;
         };
 
         NAV {
             bindings = <
-&trans  &kp K_UNDO  &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &studio_unlock  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &trans
-&trans  &kp HOME    &kp LEFT    &kp DOWN      &kp RIGHT     &kp END            &kp LEFT        &kp DOWN    &kp UP            &kp RIGHT   &kp RC(UP)     &trans
-&trans  &td_cursor  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(TAB)        &kp HOME        &kp PG_DN   &kp PG_UP         &kp END     &kp RC(RIGHT)  &trans
-                                &mkp MCLK     &lt 3 TAB     &kp DELETE         &kp ESC         &lt 3 TAB
+&none  &kp K_UNDO  &kp PG_UP   &kp UP        &kp PG_DN     &kp LS(LC(TAB))    &studio_unlock  &kp K_PREV  &kp K_PLAY_PAUSE  &kp K_NEXT  &kp RC(LEFT)   &none
+&none  &kp HOME    &kp LEFT    &kp DOWN      &kp RIGHT     &kp END            &kp LEFT        &kp DOWN    &kp UP            &kp RIGHT   &kp RC(UP)     &none
+&none  &td_cursor  &kp K_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &kp LC(TAB)        &kp HOME        &kp PG_DN   &kp PG_UP         &kp END     &kp RC(RIGHT)  &none
+                               &mkp MCLK     &kp TAB       &kp DELETE         &kp ESC         &kp TAB
             >;
         };
 
         RAY {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+&none  &kp F13             &kp F14       &kp F15   &kp F16     &kp F17                       &kp F18                     &kp F19     &kp F20   &kp F21        &kp F22             &none
+&none  &kp LCTRL           &kp LEFT_ALT  &kp LCMD  &kp LSHIFT  &hm LA(LC(LG(LSHIFT))) F23    &hm RA(RC(RG(RSHIFT))) F24  &kp RSHIFT  &kp RCMD  &kp RIGHT_ALT  &kp RCTRL           &none
+&none  &kp LA(LC(LSHIFT))  &none         &none     &none       &none                         &none                       &none       &none     &none          &kp RA(RC(RSHIFT))  &none
+                                         &none     &none       &none                         &none                       &none
+            >;
+        };
+
+        NP {
+            bindings = <
+&none  &kp KP_MINUS  &kp KP_N9  &kp KP_N8  &kp KP_N7  &kp KP_MULTIPLY    &kp KP_MULTIPLY  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &none
+&none  &kp KP_PLUS   &kp KP_N6  &kp KP_N5  &kp KP_N4  &kp KP_DIVIDE      &kp KP_DIVIDE    &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &none
+&none  &kp KP_ENTER  &kp KP_N3  &kp KP_N2  &kp KP_N1  &none              &none            &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &none
+                                &none      &kp KP_N0  &kp KP_DOT         &kp KP_DOT       &kp KP_N0
             >;
         };
 
         MISC {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none
             >;
         };
 
         MISC2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-            >;
-        };
-
-        MISC3 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                     &none  &none  &none    &none  &none
             >;
         };
 
         BT {
             bindings = <
-&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans         &trans         &trans         &trans         &trans           &trans  &trans  &trans  &trans  &trans  &trans
-                                      &trans         &trans         &trans           &trans  &trans
+&none  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none  &none  &none  &none  &none  &none
+&none  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none  &none  &none  &none  &none  &none
+&none  &none          &none          &none          &none          &none            &none  &none  &none  &none  &none  &none
+                                     &none          &none          &none            &none  &none
             >;
         };
 
