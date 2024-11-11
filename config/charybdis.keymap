@@ -143,6 +143,31 @@
             bindings = <&kp RSHIFT>;
             key-positions = <40 39>;
         };
+
+        LCAPSWORD {
+            bindings = <&caps_word>;
+            key-positions = <4 3>;
+        };
+
+        RCAPSWORD {
+            bindings = <&caps_word>;
+            key-positions = <7 8>;
+        };
+
+        LBOOTLOAD {
+            bindings = <&bootloader>;
+            key-positions = <1 25>;
+        };
+
+        RBOOTLOAD {
+            bindings = <&bootloader>;
+            key-positions = <10 34>;
+        };
+
+        SCROLL {
+            bindings = <&td_cursor>;
+            key-positions = <37 36>;
+        };
     };
 
     // ╭──────┬──────┬──────┬──────┬──────┬──────╮  ╭──────┬──────┬──────┬──────┬──────┬──────╮
@@ -222,7 +247,7 @@
             >;
         };
 
-        MISC2 {
+        EXTRA {
             bindings = <
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
