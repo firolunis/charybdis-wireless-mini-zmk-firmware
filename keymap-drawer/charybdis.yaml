@@ -260,11 +260,11 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: BT, h: '4'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
   - ''
   - ''
   - {t: BT DISC, h: '0'}
@@ -272,23 +272,23 @@ layers:
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '3'}
   - {t: BT DISC, h: '4'}
+  - {t: BT DISC, h: '4'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '0'}
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT CLR, type: held}
+  - BT CLR
+  - {type: held}
   - ''
   - OUT BLE
   - OUT USB
+  - OUT USB
+  - OUT BLE
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - BT CLR
   - ''
   - ''
   - ''
