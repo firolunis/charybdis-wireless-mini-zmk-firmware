@@ -135,16 +135,6 @@
         //     key-positions = <2 3>;
         // };
 
-        LSHIFTCOMBO {
-            bindings = <&kp LSHIFT>;
-            key-positions = <37 38>;
-        };
-
-        RSHIFTCOMBO {
-            bindings = <&kp RSHIFT>;
-            key-positions = <40 39>;
-        };
-
         LCAPSWORD {
             bindings = <&caps_word>;
             key-positions = <4 3>;
@@ -165,7 +155,7 @@
             key-positions = <10 34>;
         };
 
-        SCROLL {
+        LSCROLL {
             bindings = <&td_cursor>;
             key-positions = <37 36>;
         };
@@ -178,6 +168,16 @@
         RCPS {
             bindings = <&kp CAPS>;
             key-positions = <8 9>;
+        };
+
+        RSCROLL {
+            bindings = <&td_cursor>;
+            key-positions = <31 32>;
+        };
+
+        CLICK {
+            bindings = <&mkp LCLK>;
+            key-positions = <39 40>;
         };
     };
 

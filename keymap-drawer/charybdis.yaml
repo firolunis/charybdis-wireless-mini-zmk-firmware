@@ -380,10 +380,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [37, 38]
-  k: LSHIFT
-- p: [40, 39]
-  k: RSHIFT
 - p: [4, 3]
   k: CAPS WORD
 - p: [7, 8]
@@ -398,3 +394,7 @@ combos:
   k: CAPS
 - p: [8, 9]
   k: CAPS
+- p: [31, 32]
+  k: SCRL SLOW
+- p: [39, 40]
+  k: L CLK
