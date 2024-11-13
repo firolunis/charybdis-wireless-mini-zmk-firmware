@@ -251,9 +251,9 @@
 
         MISC {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp RS(RC(TAB))  &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none            &none
+&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp RC(TAB)      &none
                      &none  &none  &none    &none  &none
             >;
         };
