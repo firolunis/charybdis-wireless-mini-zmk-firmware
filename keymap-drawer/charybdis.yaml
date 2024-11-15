@@ -398,3 +398,5 @@ combos:
   k: SCRL SLOW
 - p: [39, 40]
   k: L CLK
+- p: [38, 37]
+  k: Hyper+ SPACE

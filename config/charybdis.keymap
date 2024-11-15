@@ -179,6 +179,11 @@
             bindings = <&mkp LCLK>;
             key-positions = <39 40>;
         };
+
+        HyperSpace {
+            bindings = <&kp LS(LA(LC(LG(SPACE))))>;
+            key-positions = <38 37>;
+        };
     };
 
     // ╭──────┬──────┬──────┬──────┬──────┬──────╮  ╭──────┬──────┬──────┬──────┬──────┬──────╮
