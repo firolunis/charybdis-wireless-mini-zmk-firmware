@@ -256,10 +256,10 @@
 
         MISC {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp RS(RC(TAB))  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none            &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &kp RC(TAB)      &none
-                     &none  &none  &none    &none  &none
+&none  &none  &none  &none  &none  &kp LC(LEFT)     &none  &none  &none  &none  &kp RS(RC(TAB))  &none
+&none  &none  &none  &none  &none  &kp LC(UP)       &none  &none  &none  &none  &none            &none
+&none  &none  &none  &none  &none  &kp LC(RIGHT)    &none  &none  &none  &none  &kp RC(TAB)      &none
+                     &none  &none  &none            &none  &none
             >;
         };
 
