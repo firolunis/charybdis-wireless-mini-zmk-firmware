@@ -157,7 +157,7 @@
 
         LSCROLL {
             bindings = <&td_cursor>;
-            key-positions = <37 36>;
+            key-positions = <37 38>;
         };
 
         LCPS {
@@ -178,11 +178,6 @@
         CLICK {
             bindings = <&mkp LCLK>;
             key-positions = <39 40>;
-        };
-
-        HyperSpace {
-            bindings = <&kp LS(LA(LC(LG(SPACE))))>;
-            key-positions = <38 37>;
         };
     };
 

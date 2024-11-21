@@ -388,7 +388,7 @@ combos:
   k: BOOT LDR
 - p: [10, 34]
   k: BOOT LDR
-- p: [37, 36]
+- p: [37, 38]
   k: SCRL SLOW
 - p: [2, 3]
   k: CAPS
@@ -398,5 +398,3 @@ combos:
   k: SCRL SLOW
 - p: [39, 40]
   k: L CLK
-- p: [38, 37]
-  k: Hyper+ SPACE
