@@ -217,7 +217,7 @@ layers:
   - ''
   - Ctl+ LEFT
   - ''
-  - ''
+  - Sft+Gui+ UP
   - ''
   - ''
   - Sft+Ctl+ TAB
@@ -232,7 +232,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - Gui+ ,
   - ''
   - ''
   - ''
@@ -241,18 +241,58 @@ layers:
   - ''
   - Ctl+ RIGHT
   - ''
-  - ''
+  - Sft+Gui+ DOWN
   - ''
   - ''
   - Ctl+ TAB
   - ''
   - ''
+  - Alt+ TAB
+  - Alt+Ctl+Gui+ SPACE
+  - AGr+Ctl+Gui+ `
+  - AGr+ TAB
+  EXTRA:
   - ''
   - ''
   - ''
   - ''
-  EXTRA: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '']
+  - ''
+  - ''
+  - Sft+AGr+Ctl+Gui+ ]
+  - AGr+Ctl+Gui+Sft+ )
+  - AGr+Ctl+Gui+Sft+ +
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+AGr+Ctl+Gui+ [
+  - Sft+AGr+Ctl+Gui+ (
+  - AGr+Ctl+Gui+Sft+ }
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Sft+AGr+Ctl+Gui+ !
+  - Sft+AGr+Ctl+Gui+ {
+  - ''
+  - {type: held}
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   BT:
   - ''
   - {t: BT, h: '0'}
@@ -279,16 +319,16 @@ layers:
   - {t: BT DISC, h: '0'}
   - ''
   - ''
-  - BT CLR
+  - ''
   - {type: held}
-  - ''
-  - OUT BLE
-  - OUT USB
-  - OUT USB
-  - OUT BLE
-  - ''
-  - ''
   - BT CLR
+  - OUT BLE
+  - OUT USB
+  - OUT USB
+  - OUT BLE
+  - BT CLR
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -398,3 +438,7 @@ combos:
   k: SCRL SLOW
 - p: [39, 40]
   k: L CLK
+- p: [34, 33]
+  k: EXTRA
+- p: [25, 26]
+  k: EXTRA
