@@ -211,11 +211,11 @@ layers:
   - KP 0
   MISC:
   - ''
+  - Sft+Ctl+ TAB
   - ''
   - ''
+  - Gui+Sft+ UP
   - ''
-  - ''
-  - Ctl+ LEFT
   - ''
   - Sft+Gui+ UP
   - ''
@@ -223,23 +223,23 @@ layers:
   - Sft+Ctl+ TAB
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Gui+ ,
+  - Ctl+ LEFT
   - Ctl+ UP
+  - Ctl+ RIGHT
   - ''
   - ''
-  - ''
-  - ''
+  - Ctl+ LEFT
+  - Ctl+ UP
+  - Ctl+ RIGHT
   - Gui+ ,
   - ''
   - ''
-  - ''
+  - Ctl+ TAB
   - ''
   - {type: held}
+  - Sft+Gui+ DOWN
   - ''
-  - Ctl+ RIGHT
   - ''
   - Sft+Gui+ DOWN
   - ''
