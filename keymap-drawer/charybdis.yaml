@@ -258,9 +258,9 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+AGr+Ctl+Gui+ ]
-  - AGr+Ctl+Gui+Sft+ )
-  - AGr+Ctl+Gui+Sft+ +
+  - Sft+AGr+Ctl+Gui+ 0
+  - AGr+Ctl+Gui+Sft+ 8
+  - AGr+Ctl+Gui+Sft+ 9
   - ''
   - ''
   - ''
@@ -270,9 +270,9 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+AGr+Ctl+Gui+ [
-  - Sft+AGr+Ctl+Gui+ (
-  - AGr+Ctl+Gui+Sft+ }
+  - Sft+AGr+Ctl+Gui+ 2
+  - Sft+AGr+Ctl+Gui+ 5
+  - AGr+Ctl+Gui+Sft+ 4
   - ''
   - ''
   - ''
@@ -282,8 +282,8 @@ layers:
   - ''
   - ''
   - ''
-  - Sft+AGr+Ctl+Gui+ !
-  - Sft+AGr+Ctl+Gui+ {
+  - Sft+AGr+Ctl+Gui+ -
+  - Sft+AGr+Ctl+Gui+ 3
   - ''
   - {type: held}
   - {type: held}

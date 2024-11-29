@@ -270,10 +270,10 @@
 
         EXTRA {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(RBKT))))  &kp RA(RC(RG(RS(RPAR))))  &kp RA(RC(RG(RS(PLUS))))  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(LBKT))))  &kp RS(RA(RC(RG(LPAR))))  &kp RA(RC(RG(RS(RBRC))))  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(EXCL))))  &kp RS(RA(RC(RG(LBRC))))  &none                     &none  &none  &none
-                     &none  &none  &none    &none                     &none
+&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(N0))))     &kp RA(RC(RG(RS(N8))))  &kp RA(RC(RG(RS(N9))))  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(N2))))     &kp RS(RA(RC(RG(N5))))  &kp RA(RC(RG(RS(N4))))  &none  &none  &none
+&none  &none  &none  &none  &none  &none    &kp RS(RA(RC(RG(MINUS))))  &kp RS(RA(RC(RG(N3))))  &none                   &none  &none  &none
+                     &none  &none  &none    &none                      &none
             >;
         };
 
