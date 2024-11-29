@@ -248,8 +248,8 @@ layers:
   - ''
   - ''
   - Alt+ TAB
-  - Alt+Ctl+Gui+ `
-  - AGr+Ctl+Gui+ `
+  - Alt+Ctl+Gui+ $
+  - AGr+Ctl+Gui+ $
   - AGr+ TAB
   EXTRA:
   - ''
