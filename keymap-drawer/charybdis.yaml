@@ -248,7 +248,7 @@ layers:
   - ''
   - ''
   - Alt+ TAB
-  - Alt+Ctl+Gui+ SPACE
+  - Alt+Ctl+Gui+ `
   - AGr+Ctl+Gui+ `
   - AGr+ TAB
   EXTRA:
