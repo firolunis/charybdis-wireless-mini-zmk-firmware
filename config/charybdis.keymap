@@ -261,9 +261,9 @@
 
         MISC {
             bindings = <
-&none  &kp LS(LC(TAB))  &none         &none       &kp LG(LS(UP))    &none                &none              &kp RS(RG(UP))    &none       &none          &kp RS(RC(TAB))  &none
+&none  &kp LS(LC(TAB))  &kp LG(N2)    &none       &kp LG(LS(UP))    &none                &none              &kp RS(RG(UP))    &none       &kp RG(N2)     &kp RS(RC(TAB))  &none
 &none  &kp LG(COMMA)    &kp LC(LEFT)  &kp LC(UP)  &kp LC(RIGHT)     &none                &none              &kp RC(LEFT)      &kp RC(UP)  &kp RC(RIGHT)  &kp RG(COMMA)    &none
-&none  &kp LC(TAB)      &none         &none       &kp LS(LG(DOWN))  &none                &none              &kp RS(RG(DOWN))  &none       &none          &kp RC(TAB)      &none
+&none  &kp LC(TAB)      &kp LG(N0)    &none       &kp LS(LG(DOWN))  &none                &none              &kp RS(RG(DOWN))  &none       &kp RG(N0)     &kp RC(TAB)      &none
                                       &none       &kp LA(TAB)       &kp LG(LS(EQUAL))    &kp RS(RG(EQUAL))  &kp RA(TAB)
             >;
         };
