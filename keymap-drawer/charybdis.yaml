@@ -366,8 +366,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -442,3 +442,5 @@ combos:
   k: EXTRA
 - p: [25, 26]
   k: EXTRA
+- p: [31, 30]
+  k: SLOW
